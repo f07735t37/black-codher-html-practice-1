@@ -1,17 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
-h1 {
-    font-size: 22px;
+body {
+    background-color: #B0E298;
+    font-family: 'Merriweather', serif;
+    font-size: 26px;
+    color: #000;
+    }
+h1, h2, h3, h4, h5, h6 {
+    font-size: 50px;
 }
-h2 {
-    font-size: 20px;
-}
-h3 {
-    font-size: 18px;
-}
-h4 {
-    font-size: 16px;
-}
-p {
+/*For mobile devices*/
+@media (max-width: 767px) {
+body {
+    background-color: #3D3B8E;
+    font-family: 'Merriweather', serif;
     font-size: 14px;
+    color: #FFF;
+    }
+h1, h2, h3, h4, h5, h6 {
+    font-size: 20px;
+    }
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+}
+.audio {
+    display: flex;
+    align-items: flex-start;
+}
+.facts {
+    display: flex;
+    align-items: center;
+}
+.quote {
+    display: flex;
+    align-items: flex-end;
+}
